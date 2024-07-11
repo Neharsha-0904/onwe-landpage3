@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import back from "../../assets/Back.png";
 import apps from "../../assets/apps.png";
+import Bird from "./Bird";
 
 
 const Hero = () => {
@@ -9,6 +10,9 @@ const Hero = () => {
     color: 'transparent',
     WebkitTextStroke: '1px black',
   }
+  const handleConnectClick = () => {
+    window.open('https://forms.gle/JD7J2V6S1MqVSbti8', '_blank');
+  };
   return (
     <div className="Hero">
       <div className="hero">
@@ -18,8 +22,8 @@ const Hero = () => {
           Join a vibrant community where everyone unites, fostering inspiration and collaboration in every corner.
           </span>
           <div>
-            <button href="https://forms.gle/JD7J2V6S1MqVSbti8">Connect</button>
-            <button>Pre-Register</button>
+            <button onClick={handleConnectClick}>Connect</button>
+            <button onClick={handleConnectClick}>Pre-Register</button>
           </div>
           {/* <div>
             <img src={apps} alt="" />
@@ -29,6 +33,7 @@ const Hero = () => {
           <img src={back} alt="" />
         </div>
       </div>
+
       {/* <div className="hero2">
         <div className="hero2-t">
           <span>Trusted by design teams at</span>

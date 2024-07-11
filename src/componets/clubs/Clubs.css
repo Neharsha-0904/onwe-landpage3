@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .clubs1 {
-  margin-top: 80px;
+  margin-top: 120px;
   width: 100%;
   height: 365px;
   display: flex;
@@ -83,7 +83,7 @@
 .clubs1-r > :nth-child(1) {
   font-size: 33px;
   font-weight: 700;
-  width: 120px;
+  width: 150px;
   color: black;
 }
 .clubs1-r span {

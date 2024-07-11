@@ -1,7 +1,12 @@
 import React from "react";
 import ludo from "../../assets/ludo.png";
 import "./Header.css";
+
 const Header = () => {
+  const handleConnectClick = () => {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSczAE56toRR-aNbI4fov4COyfutQE5weEbJOM0NRuOaM8ilEw/viewform", "_blank");
+  };
+
   return (
     <div className="Header">
       <div className="h1">
@@ -15,7 +20,9 @@ const Header = () => {
         </div>
         <div>
           <span>Home</span>
-          <span>Connect</span>
+          <span onClick={handleConnectClick} style={{ cursor: "pointer", textDecoration: "underline" }}>
+            Connect
+          </span>
         </div>
       </div>
     </div>

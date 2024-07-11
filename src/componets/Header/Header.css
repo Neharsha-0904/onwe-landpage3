@@ -1,9 +1,11 @@
 .Header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 20px;
+  margin-left: 300px;
+
 }
 .h1 span {
   font-size: 13px;
@@ -42,4 +44,5 @@
   gap: 10px;
   font-size: 15px;
   font-weight: 500;
+  
 }

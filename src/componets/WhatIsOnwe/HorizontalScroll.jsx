@@ -4,7 +4,7 @@ import './HorizontalScroll.css';
 const App = () => {
   return (
     <div className="App">
-      <div className="scroll" style={{ '--time': '20s' }}>
+      <div className="scroll" style={{ '--time': '40s' }}>
         <div>
           <span>Debate Club</span>
           <span>Drama Club</span>
@@ -58,7 +58,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="scroll" style={{ '--time': '25s' }}>
+      <div className="scroll" style={{ '--time': '40s' }}>
         <div>
           <span>Music Club</span>
           <span>Dance Club</span>

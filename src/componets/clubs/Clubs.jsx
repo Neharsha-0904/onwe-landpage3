@@ -11,16 +11,16 @@ const Clubs = () => {
         <div className="clubs1-l">
           <img src={p1} alt="" />
           <span>Sports Club</span>
-          <span>Officers are available on different countries.</span>
+          <span>Explore the sports updates!</span>
           <button>Join Now</button>
         </div>
-        <div className="plates"></div>
-        <div className="plates2"></div>
+        {/* <div className="plates"></div>
+        <div className="plates2"></div> */}
         <div className="clubs1-r">
-          <span>Trade to Earn</span>
-          <span>Earn $SPAAcE every time you buy and sell NFTs.</span>
-          <span>Explore collectionson Spaces</span>
-          <span>Buy and sell NFTs</span>
+          <span>Join our Club</span>
+          <span>Clubs tailored to one's own tastes</span>
+          <span>Explore more Clubs</span>
+          <span>Create More</span>
         </div>
       </div>
       <div className="clubs2">

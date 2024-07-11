@@ -49,9 +49,9 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-#panel-1 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/projections.jpeg"); background-size: cover; }
-#panel-2 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/edm.jpeg"); background-size: cover; }
-#panel-3 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/NCC.jpeg"); background-size: cover; }
-#panel-4 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/sports.jpeg"); background-size: cover; }
-#panel-5 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/fest.jpeg"); background-size: cover; }
-#panel-6 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/culture.jpeg"); background-size: cover; }
+#panel-1 { background-image: url("../../public/img/projections.jpeg"); background-size: cover; }
+#panel-2 { background-image: url("../../public/img/edm.jpeg"); background-size: cover; }
+#panel-3 { background-image: url("../../public/img/NCC.jpeg"); background-size: cover; }
+#panel-4 { background-image: url("../../public/img/sports.jpeg"); background-size: cover; }
+#panel-5 { background-image: url("../../public/img/fest.jpeg"); background-size: cover; }
+#panel-6 { background-image: url("../../public/img/culture.jpeg"); background-size: cover; }

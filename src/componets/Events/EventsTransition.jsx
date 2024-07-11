@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './EventsTransition.css';
 
 const panelsData = [
-  { id: 'panel-1', title: 'Tech', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/projections.jpeg' },
-  { id: 'panel-2', title: 'EDM', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/edm.jpeg' },
-  { id: 'panel-3', title: 'NCC', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/NCC.jpeg' },
-  { id: 'panel-4', title: 'Sports', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/sports.jpeg' },
-  { id: 'panel-5', title: 'Fest', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/fest.jpeg' },
-  { id: 'panel-6', title: 'Culture', image: '/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/culture.jpeg' },
+  { id: 'panel-1', title: 'Tech', image: '../../public/img/projections.jpeg' },
+  { id: 'panel-2', title: 'EDM', image: '../../public/img/edm.jpeg' },
+  { id: 'panel-3', title: 'NCC', image: '../../public/img/NCC.jpeg' },
+  { id: 'panel-4', title: 'Sports', image: '../../public/img/sports.jpeg' },
+  { id: 'panel-5', title: 'Fest', image: '../../public/img/fest.jpeg' },
+  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
 ];
 
 const Panel = ({ id, title, image, isActive, onClick }) => {

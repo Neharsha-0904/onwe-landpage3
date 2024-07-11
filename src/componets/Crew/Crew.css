@@ -1,0 +1,46 @@
+.Crew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  height: 100vh;
+}
+.crew-l img {
+  width: 450px;
+}
+.crew-r {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.crew-r > div {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.crew-r > :nth-child(1) {
+  margin-bottom: 15px;
+}
+.crew-r > :nth-child(1) > :nth-child(1) {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1.8px;
+}
+.crew-r > :nth-child(2) > :nth-child(1),
+.crew-r > :nth-child(3) > :nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.5px;
+}
+.crew-r > :nth-child(1) > :nth-child(2),
+.crew-r > :nth-child(2) > :nth-child(2),
+.crew-r > :nth-child(3) > :nth-child(2) {
+  font-size: 15.7px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #161c2d;
+  letter-spacing: -0.2px;
+}

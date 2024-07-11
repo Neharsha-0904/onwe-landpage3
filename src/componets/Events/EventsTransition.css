@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.panel {
+  width: 30px;
+  height: 50vh;
+  box-shadow: 0 0 0px black;
+  margin: 20px;
+  border-radius: 20px;
+  flex: 1;
+  background: white no-repeat scroll center;
+  transition: all 0.4s linear;
+  position: relative;
+}
+
+.panel h3 {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  color: white;
+  font-size: 40px;
+  transform: rotate(-90deg);
+  transition: all 0.5s linear;
+}
+
+.panel:hover {
+  flex: 6;
+  filter: grayscale(0);
+}
+
+.panel:hover h3 {
+  transform: rotate(0deg);
+  left: 50px;
+  top: 50px;
+  text-shadow: 0 0 3px black;
+}
+
+#panel-1 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/projections.jpeg"); background-size: cover; }
+#panel-2 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/edm.jpeg"); background-size: cover; }
+#panel-3 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/NCC.jpeg"); background-size: cover; }
+#panel-4 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/sports.jpeg"); background-size: cover; }
+#panel-5 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/fest.jpeg"); background-size: cover; }
+#panel-6 { background-image: url("/home/ubuntu/Downloads/Onwe(3)/Onwe/public/img/culture.jpeg"); background-size: cover; }

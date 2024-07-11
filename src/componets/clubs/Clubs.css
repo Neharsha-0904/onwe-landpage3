@@ -1,0 +1,169 @@
+.clubs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.clubs1 {
+  margin-top: 80px;
+  width: 100%;
+  height: 365px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 220px;
+}
+.clubs1-l {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: -1px 1px 2px -2px black;
+  z-index: 10;
+  background-color: white;
+  border-radius: 3px;
+}
+.clubs1-l img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.clubs1-l > :nth-child(2) {
+  margin-top: 6px;
+  color: #161c2d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.clubs1-l > :nth-child(3) {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.clubs1-l button {
+  width: 300px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+}
+.plates {
+  position: absolute;
+  left: 220px;
+  bottom: -30px;
+  background-color: #dedddd;
+  width: 350px;
+  height: 350px;
+  transform: rotate(-10deg);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.plates2 {
+  position: absolute;
+  left: 170px;
+  bottom: -70px;
+  background-color: #eceaea;
+  width: 350px;
+  height: 350px;
+  transform: rotate(-20deg);
+  z-index: -1;
+  border-radius: 5px;
+}
+.clubs1-r {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.clubs1-r > :nth-child(1) {
+  font-size: 33px;
+  font-weight: 700;
+  width: 120px;
+  color: black;
+}
+.clubs1-r span {
+  font-size: 14px;
+  color: #b0abae;
+}
+.clubs1-r > :nth-child(3) {
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.clubs1-r > :nth-child(4) {
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.clubs2 {
+  display: flex;
+  justify-content: space-between;
+}
+.clubs2-l {
+  margin-top: 100px;
+  width: 48%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 0px 20px 20px 0px;
+  position: relative;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.clubs2-l > :nth-child(2) {
+  font-size: 50px;
+  font-weight: 700;
+}
+.clubs2-l > :nth-child(3) {
+  width: 300px;
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+.clubs2-l img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;
+  top: -100px;
+  left: 160px;
+}
+.clubs2-r {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 48%;
+  height: 500px;
+  gap: 10px;
+  background-color: black;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.clubs2-r img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;
+  right: 160px;
+  top: 250px;
+}
+.clubs2-r > :nth-child(1) {
+  font-size: 50px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+.clubs2-r > :nth-child(2) {
+  width: 300px;
+  font-size: 15px;
+}

@@ -14,7 +14,7 @@
 }
 .h1 > :nth-child(1) {
   padding: 3px;
-  border: 1.5px solid blue;
+  border: 1.5px solid black;
   border-radius: 5px;
 }
 .h2 {
@@ -45,4 +45,26 @@
   font-size: 15px;
   font-weight: 500;
   
+}
+
+.airbnb {
+  background-color: black;
+  height: 32px;
+  width: 56px;
+  border-radius: 18px;
+  padding: 2px;
+  display: inline-block; /* Ensures the container only takes the necessary space */
+  text-align: center;
+  display: flex;
+width: 56px;
+padding: 6px 16px;
+justify-content: space-between;
+align-items: center;
+}
+
+.airbnb-img {
+  height: 24px;
+  width: 24px;
+  object-fit: contain; /* Ensures the image scales to fit inside the container */
+  border-radius: 16px; /* Adjust to your desired border radius */
 }

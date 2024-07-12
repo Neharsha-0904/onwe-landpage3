@@ -2,20 +2,22 @@ import React from "react";
 import "./Updates.css";
 import u1 from "../../assets/clubs/u1.png";
 const Updates = () => {
+  const handleConnectClick = () => {
+    window.open('https://forms.gle/JD7J2V6S1MqVSbti8', '_blank');
+  };
   return (
     <div className="Updates">
       <div className="updates-l">
         <img src={u1} alt="" />
       </div>
       <div className="updates-m">
-        <span>Get latest updates</span>
+        <span>Stay Updated!</span>
         <span>
-          With lots of unique blocks, you can easily build a page without
-          coding. Build your next landing page.
+        We will keep in contact with you, we are just one step away from that.
         </span>
         <form>
-          <input type="email" placeholder="Enter your email" />
-          <button>Subscribe</button>
+          {/* <input type="email" placeholder="Enter your email" /> */}
+          <button onClick={handleConnectClick}>Connect</button>
         </form>
         <span>
           We'll never share your details with third parties. View our Privacy

@@ -1,118 +1,85 @@
 import React from 'react';
 import './HorizontalScroll.css';
 
-const App = () => {
+const colors = [
+  'bg-color-1', 'bg-color-2', 'bg-color-3', 
+  'bg-color-4', 'bg-color-5', 'bg-color-6', 
+  'bg-color-7', 'bg-color-8', 'bg-color-9', 
+  'bg-color-10'
+];
+
+const InfiniteScrollComponent = () => {
+  const renderSpans = (items) => {
+    return items.map((item, index) => (
+      <span key={index} className={colors[index % colors.length]}>
+        {item}
+      </span>
+    ));
+  };
+
   return (
     <div className="App">
       <div className="scroll" style={{ '--time': '40s' }}>
-        <div>
-          <span>Debate Club</span>
-          <span>Drama Club</span>
-          <span>Photography Club</span>
-          <span>Student Government</span>
-          <span>Music Society</span>
-          <span>Art Club</span>
-          <span>Film Club</span>
-          <span>Chess Club</span>
-          <span>Environmental Club</span>
-          <span>Entrepreneurship Club</span>
-        </div>
-        <div>
-          <span>Sports Club</span>
-          <span>Book Club</span>
-          <span>Robotics Club</span>
-          <span>Dance Team</span>
-          <span>Fashion Club</span>
-          <span>Technology Club</span>
-          <span>Language Club</span>
-          <span>Volunteer Club</span>
-          <span>Science Club</span>
-          <span>Writing Club</span>
-        </div>
+        <div>{renderSpans([
+          'Debate Club', 'Drama Club', 'Photography Club', 
+          'Student Government', 'Music Society', 'Art Club', 
+          'Film Club', 'Chess Club', 'Environmental Club', 
+          'Entrepreneurship Club'
+        ])}</div>
+        <div>{renderSpans([
+          'Sports Club', 'Book Club', 'Robotics Club', 
+          'Dance Team', 'Fashion Club', 'Technology Club', 
+          'Language Club', 'Volunteer Club', 'Science Club', 
+          'Writing Club'
+        ])}</div>
       </div>
 
       <div className="scroll" style={{ '--time': '30s' }}>
-        <div>
-          <span>Engineering Society</span>
-          <span>Business Club</span>
-          <span>Hiking Club</span>
-          <span>Cultural Club</span>
-          <span>Chess Club</span>
-          <span>Debate Team</span>
-          <span>Music Ensemble</span>
-          <span>Programming Club</span>
-          <span>Health and Fitness Club</span>
-          <span>Adventure Club</span>
-        </div>
-        <div>
-          <span>Academic Club</span>
-          <span>Gaming Club</span>
-          <span>Environmental Club</span>
-          <span>Student Newspaper</span>
-          <span>Math Club</span>
-          <span>Robotics Team</span>
-          <span>History Society</span>
-          <span>Philosophy Club</span>
-          <span>Outdoor Club</span>
-          <span>Design Club</span>
-        </div>
+        <div>{renderSpans([
+          'Engineering Society', 'Business Club', 'Hiking Club', 
+          'Cultural Club', 'Chess Club', 'Debate Team', 
+          'Music Ensemble', 'Programming Club', 'Health and Fitness Club', 
+          'Adventure Club'
+        ])}</div>
+        <div>{renderSpans([
+          'Academic Club', 'Gaming Club', 'Environmental Club', 
+          'Student Newspaper', 'Math Club', 'Robotics Team', 
+          'History Society', 'Philosophy Club', 'Outdoor Club', 
+          'Design Club'
+        ])}</div>
       </div>
 
       <div className="scroll" style={{ '--time': '40s' }}>
-        <div>
-          <span>Music Club</span>
-          <span>Dance Club</span>
-          <span>Art Society</span>
-          <span>Theater Club</span>
-          <span>Journalism Club</span>
-          <span>Film Society</span>
-          <span>Model United Nations</span>
-          <span>Engineering Club</span>
-          <span>Psychology Club</span>
-          <span>Student Council</span>
-        </div>
-        <div>
-          <span>Entrepreneurship Society</span>
-          <span>Women's Club</span>
-          <span>Men's Club</span>
-          <span>International Club</span>
-          <span>Programming Society</span>
-          <span>Language Society</span>
-          <span>Science Society</span>
-          <span>Economics Club</span>
-          <span>Physics Club</span>
-          <span>Political Club</span>
-        </div>
+        <div>{renderSpans([
+          'Music Club', 'Dance Club', 'Art Society', 
+          'Theater Club', 'Journalism Club', 'Film Society', 
+          'Model United Nations', 'Engineering Club', 'Psychology Club', 
+          'Student Council'
+        ])}</div>
+        <div>{renderSpans([
+          'Entrepreneurship Society', 'Women\'s Club', 'Men\'s Club', 
+          'International Club', 'Programming Society', 'Language Society', 
+          'Science Society', 'Economics Club', 'Physics Club', 
+          'Political Club'
+        ])}</div>
       </div>
 
       <div className="scroll" style={{ '--time': '40s' }}>
-        <div>
-          <span>Photography Society</span>
-          <span>Music Ensemble</span>
-          <span>Debate Society</span>
-          <span>Chess Team</span>
-          <span>Writing Society</span>
-          <span>Robotics Society</span>
-          <span>Entrepreneurship Club</span>
-          <span>Environmental Society</span>
-          <span>History Club</span>
-          <span>Philosophy Society</span>
-        </div>
-        <div>
-          <span>Technology Society</span>
-          <span>Sports Society</span>
-          <span>Art Club</span>
-          <span>Academic Society</span>
-          <span>Gaming Society</span>
-          <span>Adventure Society</span>
-          <span>Health and Fitness Society</span>
-          <span>Model UN Club</span>
-          <span>Design Society</span>
-          <span>Outdoor Society</span>
-        </div>
+        <div>{renderSpans([
+          'Photography Society', 'Music Ensemble', 'Debate Society', 
+          'Chess Team', 'Writing Society', 'Robotics Society', 
+          'Entrepreneurship Club', 'Environmental Society', 'History Club', 
+          'Philosophy Society'
+        ])}</div>
+        <div>{renderSpans([
+          'Technology Society', 'Sports Society', 'Art Club', 
+          'Academic Society', 'Gaming Society', 'Adventure Society', 
+          'Health and Fitness Society', 'Model UN Club', 'Design Society', 
+          'Outdoor Society'
+        ])}</div>
       </div>
     </div>
   );
 }
 
-export default App;
+export default InfiniteScrollComponent;

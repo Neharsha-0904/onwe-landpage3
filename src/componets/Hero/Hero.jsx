@@ -1,8 +1,10 @@
 import React from "react";
 import "./Hero.css";
-import back from "../../assets/Back.png";
-import apps from "../../assets/apps.png";
-import Bird from "./Bird";
+import back from "/img/onwe-main.png";
+import Header from "../Header/Header";
+import Anime from "./Anime";
+
+// import Bird from "./Bird";
 
 
 const Hero = () => {
@@ -15,7 +17,11 @@ const Hero = () => {
   };
   return (
     <div className="Hero">
+      <div>
+     <Header />
+     </div>
       <div className="hero">
+     
         <div className="left-H">
           <span>Step into <span style={spanStyle} >our</span> Realm! </span>
           <span>
@@ -23,14 +29,18 @@ const Hero = () => {
           </span>
           <div>
             <button onClick={handleConnectClick}>Connect</button>
-            <button onClick={handleConnectClick}>Pre-Register</button>
+            {/* <button onClick={handleConnectClick}>Pre-Register</button> */}
           </div>
           {/* <div>
             <img src={apps} alt="" />
           </div> */}
         </div>
         <div className="right-H">
-          <img src={back} alt="" />
+          <div>
+          {/* <img src={back} alt="" /> */}
+          {/* <Anime /> */}
+          </div>
+          
         </div>
       </div>
 

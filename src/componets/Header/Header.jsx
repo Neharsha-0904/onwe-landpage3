@@ -20,8 +20,8 @@ const Header = () => {
         </div>
         <div>
           <span>Home</span>
-          <span onClick={handleConnectClick} style={{ cursor: "pointer", textDecoration: "underline" }}>
-            Connect
+          <span className="airbnb" onClick={handleConnectClick} style={{ cursor: "pointer", textDecoration: "underline" }}>
+            <img className="airbnb-img" src="/img/send-2.svg" alt="Connect" />
           </span>
         </div>
       </div>

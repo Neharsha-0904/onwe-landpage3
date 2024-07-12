@@ -1,0 +1,46 @@
+.onwe{
+  display: flex;
+  flex-direction: column;
+    background-color: white;
+    margin: 100px;
+    height: 322px;
+    width: 100vw;
+    padding-left: auto;
+    
+    
+}
+
+.heading-onwe{
+    padding: 5px;
+    text-align: center;
+    margin-left: 200px;
+    width: 2000px;
+    border-width: 6px;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+    font-size: 38px;
+    padding: 5px;
+    font-family: "Inter";
+    /* border-radius: 28px; */
+}
+.con{
+    display: flex;
+    justify-content: end;
+    
+}
+.content{
+    width: 1172px;
+    color: rgba(33, 38, 43, 0.57);
+    text-align: right;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; /* 168.182% */
+    border-bottom: 1px solid grey;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    width: 1320px;
+
+}

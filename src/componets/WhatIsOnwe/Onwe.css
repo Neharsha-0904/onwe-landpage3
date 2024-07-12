@@ -11,10 +11,11 @@
   margin-bottom: 40px;
   font-family: "Inter";
   border: 5px line white ;
+  
 }
 .onwe > div {
   margin-top: 40px;
-  margin-left: 100px;
+  margin-left: 200px;
   display: flex;
   flex-direction: column;
   color: #747474;
@@ -48,4 +49,5 @@
   width: 80%;
   font-family: "inter";
   font-weight: 500;
+  text-align: right;
 }

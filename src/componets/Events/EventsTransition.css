@@ -13,11 +13,12 @@ body {
   justify-content: center;
   align-items: center;
   padding: 100px;
+
 }
 
 .panel {
   width: 30px;
-  height: 50vh;
+  height: 60vh;
   box-shadow: 0 0 0px black;
   margin: 20px;
   border-radius: 20px;
@@ -25,6 +26,7 @@ body {
   background: white no-repeat scroll center;
   transition: all 0.4s linear;
   position: relative;
+  
 }
 
 .panel h3 {

@@ -8,6 +8,8 @@ const panelsData = [
   { id: 'panel-4', title: 'Sports', image: '../../public/img/sports.jpeg' },
   { id: 'panel-5', title: 'Fest', image: '../../public/img/fest.jpeg' },
   { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
+  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
+  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
 ];
 
 const Panel = ({ id, title, image, isActive, onClick }) => {

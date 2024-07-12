@@ -3,6 +3,7 @@ import "./Clubs.css";
 import p1 from "../../assets/clubs/p1.png";
 import p2 from "../../assets/clubs/p2.png";
 import p3 from "../../assets/clubs/p3.png";
+import InfiniteScrollComponent from "../WhatIsOnwe/HorizontalScroll";
 
 const Clubs = () => {
   return (
@@ -23,6 +24,7 @@ const Clubs = () => {
           <span>Create More</span>
         </div>
       </div>
+      <InfiniteScrollComponent />
       <div className="clubs2">
         <div className="clubs2-l">
           <img src={p2} alt="" />

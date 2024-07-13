@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="h1">
-        <span>Onwe Beta </span>
+        <span>Beta </span>
         <span>Connect - Create - Cherish</span>
       </div>
       <div className="h2">

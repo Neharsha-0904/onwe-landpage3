@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="right-H">
           <div>
           {/* <img src={back} alt="" /> */}
-          {/* <Anime /> */}
+          <Anime />
           </div>
           
         </div>

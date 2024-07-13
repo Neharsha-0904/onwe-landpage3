@@ -1,8 +1,29 @@
-.h{
+.h {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.h1{
+.h-l {
     display: flex;
     flex-direction: column;
+    width: 60%;
+}
+
+.h-r img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .h {
+        flex-direction: column;
+    }
+    .h-r {
+        width: 100%;
+        text-align: center;
+    }
 }

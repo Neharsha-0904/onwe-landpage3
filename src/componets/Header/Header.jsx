@@ -1,6 +1,7 @@
 import React from "react";
 import ludo from "../../assets/ludo.png";
 import "./Header.css";
+import WordAnimation from "./TextAnime";
 
 const Header = () => {
   const handleConnectClick = () => {
@@ -8,10 +9,15 @@ const Header = () => {
   };
 
   return (
+    <div className="nh">
+
+  
     <div className="Header">
       <div className="h1">
+        <div>
         <span>Beta </span>
         <span>Connect - Create - Cherish</span>
+        </div>
       </div>
       <div className="h2">
         <div>
@@ -25,6 +31,8 @@ const Header = () => {
           </span>
         </div>
       </div>
+    </div>
+    <div className="title"><WordAnimation/></div>
     </div>
   );
 };

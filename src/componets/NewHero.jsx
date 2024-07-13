@@ -3,7 +3,7 @@ import './NewHero.css'
 import Header from "./Header/Header";
 import back from "/img/onwe-main.png";
 
-const Hero = () => {
+const NewHero = () => {
  
   return (
     <div className="h">
@@ -18,4 +18,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default NewHero;

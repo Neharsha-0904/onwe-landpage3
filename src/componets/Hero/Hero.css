@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
+  background-color: white;
 }
 
 .hero {
@@ -13,7 +14,7 @@
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 100px;
-  padding-top: 30px;
+  
 }
 
 .left-H {
@@ -73,11 +74,12 @@
   flex-direction: column;
   align-items: start;
   justify-content: start;
+  padding-left: 70px;
 }
 
 .right-H img {
-  width: 556px;
-  height: 100%;
+  width: 736px;
+  height: 600px;
   border-radius: 12px;
 }
 

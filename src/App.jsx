@@ -8,17 +8,21 @@ import Clubs from "./componets/clubs/Clubs";
 import Crew from "./componets/Crew/Crew";
 import Events from "./componets/Events/Events";
 import Updates from "./componets/Updates/Updates";
-import Footer from "./componets/Footer/Footer";
+
 import InfiniteScrollComponent from "./componets/WhatIsOnwe/HorizontalScroll";
 import Anime from "./componets/Hero/Anime";
+import NewHero from "./componets/NewHero";
+import Footer from "./componets/Footer/Footer";
+
 
 const App = () => {
+  
   return (
     <div className="black-border">
       {/* <Header /> */}
       {/* <Anime/> */}
-      <Hero />
-     
+      {/* <NewHero /> */}
+     <Hero/>
       <Onwe />
       {/* <InfiniteScrollComponent /> */}
       <Clubs />
@@ -26,7 +30,6 @@ const App = () => {
       <Crew />
       <Updates />
       <Footer />
-      
     </div>
   );
 };

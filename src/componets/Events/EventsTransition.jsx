@@ -7,9 +7,9 @@ const panelsData = [
   { id: 'panel-3', title: 'NCC', image: '../../public/img/NCC.jpeg' },
   { id: 'panel-4', title: 'Sports', image: '../../public/img/sports.jpeg' },
   { id: 'panel-5', title: 'Fest', image: '../../public/img/fest.jpeg' },
-  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
-  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
-  { id: 'panel-6', title: 'Culture', image: '../../public/img/culture.jpeg' },
+  { id: 'panel-6', title: 'Culture', image: '/img/culture.jpeg' },
+  { id: 'panel-7', title: 'Holi', image: '/img/holi.jpeg' },
+  { id: 'panel-8', title: 'Art', image: 'img/Art.jpeg' },
 ];
 
 const Panel = ({ id, title, image, isActive, onClick }) => {

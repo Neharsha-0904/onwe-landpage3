@@ -4,6 +4,8 @@
   width: 100%;
   height: 100%;
   justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 .clubs1 {
  
@@ -106,6 +108,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 120px;
+  width: 100vw;
 }
 .clubs2-l {
   margin-top: 100px;

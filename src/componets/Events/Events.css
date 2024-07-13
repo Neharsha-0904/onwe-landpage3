@@ -1,13 +1,13 @@
 .Events {
   margin-top: 200px; 
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-left: 280px;
-  gap: 100px; 
+  padding-left: 280px;
+
 }
 .events-l {
   display: flex;
@@ -16,7 +16,7 @@
   font-family: "Inter";
   text-align: start;
   align-items: start;
-  margin-left: 60px;
+  padding-left: 40px;
   
 }
 .events-l > :nth-child(1) {

@@ -12,12 +12,12 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding-left: 20px;
 
 }
 
 .panel {
-  width: 30px;
+  width: 100px;
   height: 60vh;
   box-shadow: 0 0 0px black;
   margin: 20px;
@@ -51,9 +51,11 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-#panel-1 { background-image: url("../../public/img/projections.jpeg"); background-size: cover; }
-#panel-2 { background-image: url("../../public/img/edm.jpeg"); background-size: cover; }
-#panel-3 { background-image: url("../../public/img/NCC.jpeg"); background-size: cover; }
-#panel-4 { background-image: url("../../public/img/sports.jpeg"); background-size: cover; }
-#panel-5 { background-image: url("../../public/img/fest.jpeg"); background-size: cover; }
-#panel-6 { background-image: url("../../public/img/culture.jpeg"); background-size: cover; }
+#panel-1 { background-image: url("/img/projections.jpeg"); background-size: cover; }
+#panel-2 { background-image: url("/img/edm.jpeg"); background-size: cover; }
+#panel-3 { background-image: url("/img/NCC.jpeg"); background-size: cover; }
+#panel-4 { background-image: url("/img/sports.jpeg"); background-size: cover; }
+#panel-5 { background-image: url("/img/fest.jpeg"); background-size: cover; }
+#panel-6 { background-image: url("/img/culture.jpeg"); background-size: cover; }
+#panel-7 {background-image: url("img/holi.jpeg"); background-size: cover;}
+#panel-8 {background-image: url("img/Art.jpeg"); background-size: cover;}

@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #000;
+
 }
 
 
@@ -56,9 +57,9 @@ body {
   letter-spacing: 0.2em;
   background: #333;
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: background 0.5s; /* Specify property for transition */
+  padding: 10px 10px;
+  border-radius: 14px;
+  transition: background 0.3s; /* Specify property for transition */
 }
 
 .scroll div span:hover {

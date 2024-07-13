@@ -38,7 +38,8 @@ const Hero = () => {
         <div className="right-H">
           <div>
           {/* <img src={back} alt="" /> */}
-          <Anime />
+          <img src="/img/Group 1272629257.png" alt=""/>
+          {/* <Anime /> */}
           </div>
           
         </div>

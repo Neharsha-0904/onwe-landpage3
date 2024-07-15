@@ -64,7 +64,7 @@ const InfiniteScrollComponent = () => {
         ])}</div>
       </div>
 
-      <div className="scroll" style={{ '--time': '40s' }}>
+      {/* <div className="scroll" style={{ '--time': '40s' }}>
         <div>{renderSpans([
           'Photography Society', 'Music Ensemble', 'Debate Society', 
           'Chess Team', 'Writing Society', 'Robotics Society', 
@@ -77,7 +77,7 @@ const InfiniteScrollComponent = () => {
           'Health and Fitness Society', 'Model UN Club', 'Design Society', 
           'Outdoor Society'
         ])}</div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,9 +1,11 @@
 .nh{
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  width: 100vw;
   background-color: white;
+  padding-left: 3%;
+  padding-right: 12%;
 }
 .title{
   color:black;
@@ -23,7 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 585px;
+  /* width: 585px; */
   height: 60px;
 }
 .h1 div span {
@@ -116,6 +118,8 @@
  
   }
 
+  
+
   .h2 {
     width: 90%;
     height: auto;
@@ -131,11 +135,25 @@
 }
 
 @media (max-width: 480px) {
+  .nh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .Header {
     margin-left: 0;
     align-items: center;
+    width: 400px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    
   }
-
+  .title{
+    padding-left: 18%;
+    padding-right: 8%;
+    margin-top: 2%;
+  }
   .h2 {
     width: 90%;
     padding: 10px;

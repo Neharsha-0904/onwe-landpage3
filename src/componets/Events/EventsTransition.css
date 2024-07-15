@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-left: 20px;
-
+  width: 100vw;
 }
 
 .panel {
@@ -37,6 +37,7 @@ body {
   font-size: 40px;
   transform: rotate(-90deg);
   transition: all 0.5s linear;
+  font-family: 'inter';
 }
 
 .panel:hover {

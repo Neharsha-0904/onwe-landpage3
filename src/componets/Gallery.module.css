@@ -105,17 +105,17 @@ li:nth-of-type(8) { background-position: left top; }
 li:nth-of-type(9) { background-position: right top; }
 
 /* Individual image settings */
-ul.image1 li { background-image: url("/img/fest.jpeg"); }
+ul.image1 li { background-image: url("img/sportsclub.jpg"); }
 ul.image1 { width: 180px; height: 140px; }
-ul.image2 li { background-image: url("/img/fest.jpeg"); }
-ul.image2 { width: 140px; height: 160px; }
-ul.image3 li { background-image: url("/img/fest.jpeg"); }
+ul.image2 li { background-image: url("img/roboticsclub.jpg"); }
+ul.image2 { width: 140px; height: 150px; }
+ul.image3 li { background-image: url("img/eventsclub.jpg"); }
 ul.image3 { width: 170px; height: 150px; }
 ul.image4 li { background-image: url("/img/fest.jpeg"); }
 ul.image4 { width: 180px; height: 140px; }
-ul.image5 li { background-image: url("/img/fest.jpeg"); }
+ul.image5 li { background-image: url("img/holiclub.jpg"); }
 ul.image5 { width: 124px; height: 144px; }
-ul.image6 li { background-image: url("/img/fest.jpeg"); }
+ul.image6 li { background-image: url("img/artsclub.jpg"); }
 ul.image6 { width: 160px; height: 126px; }
 
 /* Hide debug label */

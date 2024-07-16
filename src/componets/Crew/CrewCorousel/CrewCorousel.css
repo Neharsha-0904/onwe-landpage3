@@ -1,18 +1,15 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .pic-ctn {
   width: 400px;
   height: 300px;
   position: relative;
   margin-top: 15vh;
 }
+
 .pic-ctn img {
-  width: 500px;
+  width: 100%; /* Adjust the width to fit the container */
+  height: auto; /* Maintain aspect ratio */
 }
+
 @keyframes display {
   0% {
     transform: translateX(200px);
@@ -39,23 +36,19 @@ body {
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  left: calc(50% - 100px);
+  left: 50%; /* Adjusted for center alignment */
+  transform: translateX(-50%); /* Center the image horizontally */
   opacity: 0;
-  animation: display 10s infinite;
-}
-
-.pic-ctn > img:nth-child(2) {
+  animation: display 5s infinite;
   animation-delay: 2s;
 }
-
-.pic-ctn > img:nth-child(3) {
+/* .pic-ctn > img:nth-child(1) {
+  animation-delay: 2s;
+} */
+.pic-ctn > img:nth-child(2) {
   animation-delay: 4s;
 }
 
-.pic-ctn > img:nth-child(4) {
-  animation-delay: 6s;
-}
-
-.pic-ctn > img:nth-child(5) {
-  animation-delay: 8s;
+.pic-ctn > img:nth-child(3) {
+  animation-delay: 6s; /* Adjust delay for staggered animation */
 }

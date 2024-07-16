@@ -1,30 +1,30 @@
 import React, { useEffect } from 'react';
-import './TextAnime.css'
+import './TextAnime.css';
+
 const WordAnimation = () => {
   useEffect(() => {
     const spans = document.querySelectorAll('.word span');
 
     spans.forEach((span, idx) => {
-      span.addEventListener('click', (e) => {
-        e.target.classList.add('active');
-      });
-
-      span.addEventListener('animationend', (e) => {
+      const handleAnimationEnd = (e) => {
         e.target.classList.remove('active');
-      });
+      };
+
+      span.addEventListener('animationend', handleAnimationEnd);
 
       // Initial animation
       setTimeout(() => {
         span.classList.add('active');
       }, 750 * (idx + 1));
+
+      // Loop animation
+      setInterval(() => {
+        span.classList.add('active');
+      }, 750 * spans.length * 2);
     });
 
     return () => {
       spans.forEach((span) => {
-        span.removeEventListener('click', (e) => {
-          e.target.classList.add('active');
-        });
-
         span.removeEventListener('animationend', (e) => {
           e.target.classList.remove('active');
         });

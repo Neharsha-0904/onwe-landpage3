@@ -7,6 +7,7 @@
   align-items: center;
   background-color: white;
 }
+
 .clubs1 {
   width: 100%;
   height: 365px;
@@ -16,6 +17,7 @@
   position: relative;
   margin-bottom: 100px;
 }
+
 .clubs1-l {
   padding: 10px;
   display: flex;
@@ -26,12 +28,14 @@
   background-color: white;
   border-radius: 3px;
 }
+
 .clubs1-l img {
   width: 300px;
   height: 250px;
   object-fit: cover;
   border-radius: 5px;
 }
+
 .clubs1-l > :nth-child(2) {
   margin-top: 6px;
   color: #161c2d;
@@ -39,6 +43,7 @@
   font-weight: 700;
   line-height: 32px;
 }
+
 .clubs1-l > :nth-child(3) {
   margin-bottom: 10px;
   font-size: 14px;
@@ -52,6 +57,7 @@
   border-radius: 5px;
   border: 0;
 }
+
 .plates {
   position: absolute;
   left: 220px;
@@ -63,6 +69,7 @@
   border: 1px solid white;
   border-radius: 5px;
 }
+
 .plates2 {
   position: absolute;
   left: 170px;
@@ -74,6 +81,7 @@
   z-index: -1;
   border-radius: 5px;
 }
+
 .clubs1-r {
   padding: 10px;
   margin-top: 10px;
@@ -81,34 +89,40 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .clubs1-r > :nth-child(1) {
   font-size: 33px;
   font-weight: 700;
   width: 150px;
   color: black;
 }
+
 .clubs1-r span {
   font-size: 14px;
   color: #b0abae;
 }
+
 .clubs1-r > :nth-child(3) {
   font-size: 12px;
   padding: 8px;
   border-radius: 5px;
   background-color: #f4f4f4;
 }
+
 .clubs1-r > :nth-child(4) {
   font-size: 12px;
   padding: 8px;
   border-radius: 5px;
   background-color: #f4f4f4;
 }
+
 .clubs2 {
   display: flex;
   justify-content: space-between;
   margin-top: 120px;
   width: 100vw;
 }
+
 .clubs2-l {
   margin-top: 100px;
   width: 48%;
@@ -123,15 +137,18 @@
   justify-content: flex-end;
   gap: 5px;
 }
+
 .clubs2-l > :nth-child(2) {
   font-size: 50px;
   font-weight: 700;
 }
+
 .clubs2-l > :nth-child(3) {
   width: 300px;
   margin-bottom: 60px;
   font-size: 15px;
 }
+
 .clubs2-l img {
   width: 300px;
   height: 350px;
@@ -139,7 +156,13 @@
   position: absolute;
   top: -100px;
   left: 160px;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
 }
+
+.clubs2-l img:hover {
+  transform: translateY(-20px); /* Float effect */
+}
+
 .clubs2-r {
   color: white;
   display: flex;
@@ -160,16 +183,24 @@
   position: absolute;
   right: 160px;
   top: 250px;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
 }
+
+.clubs2-r img:hover {
+  transform: translateY(-20px); /* Float effect */
+}
+
 .clubs2-r > :nth-child(1) {
   font-size: 50px;
   margin-top: 60px;
   font-weight: 700;
 }
+
 .clubs2-r > :nth-child(2) {
   width: 300px;
   font-size: 15px;
 }
+
 @media (max-width: 767px) {
   .clubs {
     width: 300px;

@@ -10,16 +10,16 @@ const Footer = () => {
         </div>
         <div className="f-r">
           <div className="social">
-            <a href="https://www.instagram.com/onwe.in/?igsh=MTZraW1janl1Y25rOA%3D%3D">
+            <a href="https://www.instagram.com/onwe.in/">
               <i className="icon ion-social-instagram"></i>
             </a>
-            {/* <a href="#"><i className="icon ion-social-snapchat"></i></a> */}
-            <a href="#">
+            <a href="https://www.youtube.com/@OnwE2806"><i className="icon ion-social-youtube"></i></a>
+            <a href="https://x.com/OnwE_2806">
               <i className="icon ion-social-twitter"></i>
             </a>
-            <a href="#">
+            {/* <a href="#">
               <i className="icon ion-social-linkedin"></i>
-            </a>
+            </a> */}
           </div>
           {/* <ul className="list-inline">
           <li className="list-inline-item"><a href="#">Home</a></li>

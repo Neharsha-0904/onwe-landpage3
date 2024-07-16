@@ -21,6 +21,15 @@ const Gallery = () => {
 
   return (
     <div className={styles.pad}>
+      <div className={styles.fireworks}>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+        <div className={styles.firework}></div>
+      </div>
       <div className={styles.title}>C L U B S</div>
       <div className={styles.gallery}>{renderGallery()}</div>
     </div>

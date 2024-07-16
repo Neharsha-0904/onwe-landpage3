@@ -9,6 +9,49 @@ html, body {
 } */
 
 /* Use this class to add padding to the gallery container */
+
+/* Fireworks container */
+.fireworks {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Individual fireworks */
+.firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border-radius: 50%;
+  animation: firework 2s ease-out infinite;
+}
+
+.firework:nth-child(1) { background: red; }
+.firework:nth-child(2) { background: orange; animation-delay: 0.2s; }
+.firework:nth-child(3) { background: yellow; animation-delay: 0.4s; }
+.firework:nth-child(4) { background: green; animation-delay: 0.6s; }
+.firework:nth-child(5) { background: blue; animation-delay: 0.8s; }
+.firework:nth-child(6) { background: indigo; animation-delay: 1s; }
+.firework:nth-child(7) { background: violet; animation-delay: 1.2s; }
+
+@keyframes firework {
+  0% {
+    transform: scale(0.5) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2) translateY(-300px);
+    opacity: 0;
+  }
+}
+
+
 .pad {
   margin-top: -100px;
   margin-bottom: 170px;
@@ -201,7 +244,7 @@ ul.image1 {
   height: 140px;
 }
 ul.image2 li {
-  background-image: url("img/roboticsclub.jpg");
+  background-image: url("img/vipulsir.jpg");
 }
 ul.image2 {
   width: 140px;
@@ -222,7 +265,7 @@ ul.image4 {
   height: 140px;
 }
 ul.image5 li {
-  background-image: url("img/holiclub.jpg");
+  background-image: url("img/fashionclub.jpg");
 }
 ul.image5 {
   width: 124px;

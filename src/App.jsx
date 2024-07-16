@@ -13,25 +13,24 @@ import InfiniteScrollComponent from "./componets/WhatIsOnwe/HorizontalScroll";
 import Anime from "./componets/Hero/Anime";
 import NewHero from "./componets/NewHero";
 import Footer from "./componets/Footer/Footer";
-
+import CrewCarousel from "./componets/Crew/CrewCorousel/CrewCorousel";
 
 const App = () => {
-  
   return (
     <div className="black-border">
       {/* <Header /> */}
       {/* <Anime/> */}
       {/* <NewHero /> */}
-     <Hero/>
+      <Hero />
       <Onwe />
       {/* <InfiniteScrollComponent /> */}
       <Clubs />
       <Events />
       <Crew />
+
       <Updates />
       <Footer />
     </div>
   );
 };
-
 export default App;

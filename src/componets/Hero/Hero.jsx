@@ -6,26 +6,27 @@ import Anime from "./Anime";
 
 // import Bird from "./Bird";
 
-
 const Hero = () => {
   const spanStyle = {
-    color: 'transparent',
-    WebkitTextStroke: '1px black',
-  }
+    color: "transparent",
+    WebkitTextStroke: "1px black",
+  };
   const handleConnectClick = () => {
-    window.open('https://forms.gle/JD7J2V6S1MqVSbti8', '_blank');
+    window.open("https://forms.gle/JD7J2V6S1MqVSbti8", "_blank");
   };
   return (
     <div className="Hero">
-      <div>
-     <Header />
-     </div>
       <div className="hero">
-     
         <div className="left-H">
-          <span>Step into <span style={spanStyle} >our</span> Realm! </span>
+          <div>
+            <Header />
+          </div>
           <span>
-          Join a vibrant community where everyone unites, fostering inspiration and collaboration in every corner.
+            Step into <span style={spanStyle}>our</span> Realm!{" "}
+          </span>
+          <span>
+            Join a vibrant community where everyone unites, fostering
+            inspiration and collaboration in every corner.
           </span>
           <div>
             <button onClick={handleConnectClick}>Connect</button>
@@ -36,12 +37,9 @@ const Hero = () => {
           </div> */}
         </div>
         <div className="right-H">
-          <div>
           {/* <img src={back} alt="" /> */}
-          <img src="/img/Group 1272629257.png" alt=""/>
+          <img src="/img/Group 1272629257.png" alt="" />
           {/* <Anime /> */}
-          </div>
-          
         </div>
       </div>
 

@@ -26,7 +26,6 @@ body {
   background: white no-repeat scroll center;
   transition: all 0.4s linear;
   position: relative;
-  
 }
 
 .panel h3 {
@@ -37,7 +36,7 @@ body {
   font-size: 40px;
   transform: rotate(-90deg);
   transition: all 0.5s linear;
-  font-family: 'inter';
+  font-family: "inter";
 }
 
 .panel:hover {
@@ -52,11 +51,65 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-#panel-1 { background-image: url("/img/projections.jpeg"); background-size: cover; }
-#panel-2 { background-image: url("/img/edm.jpeg"); background-size: cover; }
-#panel-3 { background-image: url("/img/NCC.jpeg"); background-size: cover; }
-#panel-4 { background-image: url("/img/sports.jpeg"); background-size: cover; }
-#panel-5 { background-image: url("/img/fest.jpeg"); background-size: cover; }
-#panel-6 { background-image: url("/img/culture.jpeg"); background-size: cover; }
-#panel-7 {background-image: url("img/holi.jpeg"); background-size: cover;}
-#panel-8 {background-image: url("img/Art.jpeg"); background-size: cover;}
+#panel-1 {
+  background-image: url("/img/projections.jpeg");
+  background-size: cover;
+}
+#panel-2 {
+  background-image: url("/img/edm.jpeg");
+  background-size: cover;
+}
+#panel-3 {
+  background-image: url("/img/NCC.jpeg");
+  background-size: cover;
+}
+#panel-4 {
+  background-image: url("/img/sports.jpeg");
+  background-size: cover;
+}
+#panel-5 {
+  background-image: url("/img/fest.jpeg");
+  background-size: cover;
+}
+#panel-6 {
+  background-image: url("/img/culture.jpeg");
+  background-size: cover;
+}
+#panel-7 {
+  background-image: url("img/holi.jpeg");
+  background-size: cover;
+}
+#panel-8 {
+  background-image: url("img/Art.jpeg");
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 300px;
+    padding: 10px;
+    margin-left: -100px;
+    margin-top: 20px;
+  }
+  .container > div {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .panel {
+    width: 120px;
+    height: 90px;
+    box-shadow: 0 0 0px black;
+    margin: 5px;
+    border-radius: 20px;
+    flex: 1;
+    background: white no-repeat scroll center;
+    transition: all 0.4s linear;
+    position: relative;
+  }
+
+  .panel h3 {
+    visibility: hidden;
+  }
+}

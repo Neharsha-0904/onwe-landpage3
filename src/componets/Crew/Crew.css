@@ -2,9 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 10px;
   height: 100vh;
   background-color: white;
+}
+.crew-l {
+  width: 40%;
+  height: 100%;
 }
 .crew-l img {
   width: 450px;
@@ -44,4 +48,44 @@
   line-height: 32px;
   color: #161c2d;
   letter-spacing: -0.2px;
+}
+@media (max-width: 767px) {
+  .Crew {
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 250px;
+    align-items: center;
+    margin-bottom: 260px;
+  }
+  .crew-l {
+    margin-top: -150px;
+    width: 300px;
+    height: 100%;
+    margin-left: -390px;
+  }
+  .crew-l img {
+    height: 450px;
+  }
+  .crew-r > div {
+    width: 300px;
+    margin-left: -50px;
+  }
+  .crew-r > :nth-child(1) {
+    margin-bottom: 15px;
+  }
+  .crew-r > :nth-child(1) > :nth-child(1) {
+    font-size: 25px;
+    letter-spacing: -0.5px;
+  }
+  .crew-r > :nth-child(2) > :nth-child(1),
+  .crew-r > :nth-child(3) > :nth-child(1) {
+    font-size: 15px;
+  }
+  .crew-r > :nth-child(1) > :nth-child(2),
+  .crew-r > :nth-child(2) > :nth-child(2),
+  .crew-r > :nth-child(3) > :nth-child(2) {
+    font-size: 11px;
+    line-height: 20px;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Crew.css";
 import crew from "../../assets/crew.png";
+import CrewCarousel from "./CrewCorousel/CrewCorousel";
 const Crew = () => {
   return (
     <div className="Crew">
@@ -27,7 +28,7 @@ const Crew = () => {
         </div>
       </div>
       <div className="crew-l">
-        <img src={crew} alt="" />
+        <CrewCarousel />
       </div>
     </div>
   );

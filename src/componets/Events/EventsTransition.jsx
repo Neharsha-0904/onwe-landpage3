@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
-import './EventsTransition.css';
+import React, { useState } from "react";
+import "./EventsTransition.css";
 
 const panelsData = [
-  { id: 'panel-1', title: 'Tech', image: '../../public/img/projections.jpeg' },
-  { id: 'panel-2', title: 'EDM', image: '../../public/img/edm.jpeg' },
-  { id: 'panel-3', title: 'NCC', image: '../../public/img/NCC.jpeg' },
-  { id: 'panel-4', title: 'Sports', image: '../../public/img/sports.jpeg' },
-  { id: 'panel-5', title: 'Fest', image: '../../public/img/fest.jpeg' },
-  { id: 'panel-6', title: 'Culture', image: '/img/culture.jpeg' },
-  { id: 'panel-7', title: 'Holi', image: '/img/holi.jpeg' },
-  { id: 'panel-8', title: 'Art', image: 'img/Art.jpeg' },
+  { id: "panel-1", title: "Tech", image: "../../public/img/projections.jpeg" },
+  { id: "panel-2", title: "EDM", image: "../../public/img/edm.jpeg" },
+  { id: "panel-3", title: "NCC", image: "../../public/img/NCC.jpeg" },
+  { id: "panel-4", title: "Sports", image: "../../public/img/sports.jpeg" },
+  { id: "panel-5", title: "Fest", image: "../../public/img/fest.jpeg" },
+  { id: "panel-6", title: "Culture", image: "/img/culture.jpeg" },
+  { id: "panel-7", title: "Holi", image: "/img/holi.jpeg" },
+  { id: "panel-8", title: "Art", image: "img/Art.jpeg" },
 ];
 
 const Panel = ({ id, title, image, isActive, onClick }) => {
   return (
     <div
-      className={`panel ${isActive ? 'active' : ''}`}
+      className={`panel ${isActive ? "active" : ""}`}
       id={id}
       style={{ backgroundImage: `url(${image})` }}
       onClick={() => onClick(id)}
@@ -26,7 +26,7 @@ const Panel = ({ id, title, image, isActive, onClick }) => {
 };
 
 const EventsTransition = () => {
-  const [activePanel, setActivePanel] = useState('panel-1');
+  const [activePanel, setActivePanel] = useState("panel-1");
 
   const handlePanelClick = (id) => {
     setActivePanel(id);

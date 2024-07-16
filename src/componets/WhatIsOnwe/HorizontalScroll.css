@@ -10,9 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #000;
-
 }
-
 
 .scroll {
   position: relative;
@@ -76,4 +74,17 @@ body {
 .imgBox img {
   max-width: 100px;
   scale: 0.8;
+}
+@media (max-width: 767px) {
+  .App {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: -100px;
+  }
+  .scroll {
+    width: 400px;
+  }
+  .scroll div span {
+    font-size: 10px;
+  }
 }

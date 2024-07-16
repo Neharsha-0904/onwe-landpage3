@@ -291,9 +291,15 @@ li {
     margin-top: -150px;
   }
   .title {
-    margin: 1em 0;
+    font: 1.3em/1 monospace;
+    font-variant: small-caps;
+    letter-spacing: 0.5em;
+    margin: 4em 0;
     text-align: center;
+    color: black;
+    padding-left: 20px; /* Ensure text color is visible */
   }
+  
   /* Gallery container */
   .gallery {
     display: grid;

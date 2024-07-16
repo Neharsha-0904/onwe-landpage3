@@ -1,7 +1,7 @@
 import React from "react";
 import './NewHero.css'
 import Header from "./Header/Header";
-import back from "/img/onwe-main.png";
+import back from "../assets/img/onwe-main.png";
 
 const NewHero = () => {
  

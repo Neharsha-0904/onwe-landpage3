@@ -1,12 +1,10 @@
-import React from 'react';
-import styles from './Gallery.module.css';
+import React from "react";
+import styles from "./Gallery.module.css";
 
 const Gallery = () => {
   const renderListItems = () => {
-    const items = ['A', 'B', 'C', 'D', 'E', '6', '7', '8', '9'];
-    return items.map((item, index) => (
-      <li key={index}>{item}</li>
-    ));
+    const items = ["A", "B", "C", "D", "E", "6", "7", "8", "9"];
+    return items.map((item, index) => <li key={index}>{item}</li>);
   };
 
   const renderGallery = () => {
@@ -24,9 +22,7 @@ const Gallery = () => {
   return (
     <div className={styles.pad}>
       <div className={styles.title}>C L U B S</div>
-      <div className={styles.gallery}>
-        {renderGallery()}
-      </div>
+      <div className={styles.gallery}>{renderGallery()}</div>
     </div>
   );
 };

@@ -3,12 +3,12 @@ body {
   background-color: white;
   overflow-x: hidden;
 }
-.black-border{
+.black-border {
   background-color: white;
 }
 
-@media (max-width: 480px){
-  .black-border{
+@media (max-width: 480px) {
+  .black-border {
     padding-top: 150px;
   }
 }

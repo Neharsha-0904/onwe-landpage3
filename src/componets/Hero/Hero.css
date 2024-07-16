@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: white;
 }
 
 .hero {
@@ -20,9 +19,12 @@
   flex-direction: column;
   gap: 20px;
   margin-left: 50px;
+  width: 50%;
 }
-
 .left-H > :nth-child(1) {
+  margin-left: -80px;
+}
+.left-H > :nth-child(2) {
   font-size: 76px;
   font-weight: 600;
   width: 360px;
@@ -30,7 +32,7 @@
   letter-spacing: -1.92px;
 }
 
-.left-H > :nth-child(2) {
+.left-H > :nth-child(3) {
   font-size: 18px;
   font-weight: 400;
   width: 466px;
@@ -39,12 +41,12 @@
   color: #747474;
 }
 
-.left-H > :nth-child(3) {
+.left-H > :nth-child(4) {
   display: flex;
   gap: 20px;
 }
 
-.left-H > :nth-child(3) > :nth-child(1) {
+.left-H > :nth-child(4) > :nth-child(1) {
   width: 123px;
   height: 44px;
   border-radius: 20px;
@@ -54,7 +56,7 @@
   border-width: 0;
 }
 
-.left-H > :nth-child(3) > :nth-child(2) {
+.left-H > :nth-child(4) > :nth-child(2) {
   width: 158px;
   height: 44px;
   border-radius: 20px;
@@ -62,7 +64,7 @@
   font-weight: 600;
 }
 
-.left-H > :nth-child(4) img {
+.left-H > :nth-child(5) img {
   width: 440px;
   margin-top: 25px;
 }
@@ -78,9 +80,8 @@
 
 .right-H img {
   width: 736px;
-  height: 600px;
+  height: 740px;
   border-radius: 12px;
-  
 }
 
 .hero2 {
@@ -129,12 +130,12 @@
 }
 
 /* Media queries for phone responsiveness */
-@media (max-width: 768px) {
-  
+@media (max-width: 767px) {
   .hero {
     flex-direction: column;
     align-items: center;
     padding-left: 20px;
+    margin-top: 40px;
     /* padding-right: 20px; */
   }
 
@@ -142,23 +143,26 @@
     margin-left: 0;
     align-items: center;
     text-align: center;
+    width: 330px;
   }
-
   .left-H > :nth-child(1) {
+    margin-left: 0px;
+  }
+  .left-H > :nth-child(2) {
     font-size: 45px;
     width: auto;
     line-height: 60px;
     letter-spacing: -1px;
   }
 
-  .left-H > :nth-child(2) {
+  .left-H > :nth-child(3) {
     font-size: 15px;
     width: auto;
     line-height: 24px;
     letter-spacing: -0.4px;
   }
 
-  .left-H > :nth-child(3) {
+  .left-H > :nth-child(4) {
     flex-direction: column;
     gap: 10px;
   }

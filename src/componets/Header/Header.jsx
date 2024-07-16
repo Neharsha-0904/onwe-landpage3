@@ -1,5 +1,6 @@
 import React from "react";
 import ludo from "../../assets/ludo.png";
+import sendImg from "../../assets/img/send-2.svg"
 import "./Header.css";
 
 const Header = () => {
@@ -31,7 +32,7 @@ const Header = () => {
               onClick={handleConnectClick}
               style={{ cursor: "pointer", textDecoration: "underline" }}
             >
-              <img className="airbnb-img" src="/img/send-2.svg" alt="Connect" />
+              <img className="airbnb-img" src={sendImg} alt="Connect" />
             </span>
           </div>
         </div>

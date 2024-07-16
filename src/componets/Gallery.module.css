@@ -237,42 +237,42 @@ li:nth-of-type(9) {
 
 /* Individual image settings */
 ul.image1 li {
-  background-image: url("img/sportsclub.jpg");
+  background-image: url("../assets/img/sportsclub.jpg");
 }
 ul.image1 {
   width: 180px;
   height: 140px;
 }
 ul.image2 li {
-  background-image: url("img/vipulsir.jpg");
+  background-image: url("../assets/img/coding club.jpg");
 }
 ul.image2 {
   width: 140px;
   height: 150px;
 }
 ul.image3 li {
-  background-image: url("img/eventsclub.jpg");
+  background-image: url("../assets/img/f1 club.jpg");
 }
 ul.image3 {
   width: 170px;
   height: 150px;
 }
 ul.image4 li {
-  background-image: url("/img/fest.jpeg");
+  background-image: url("../assets/img/financeclub.jpg");
 }
 ul.image4 {
   width: 180px;
   height: 140px;
 }
 ul.image5 li {
-  background-image: url("img/fashionclub.jpg");
+  background-image: url("../assets/img/nature club.jpg");
 }
 ul.image5 {
   width: 124px;
   height: 144px;
 }
 ul.image6 li {
-  background-image: url("img/artsclub.jpg");
+  background-image: url("../assets/img/design club.webp");
 }
 ul.image6 {
   width: 160px;
@@ -292,6 +292,7 @@ li {
   }
   .title {
     margin: 1em 0;
+    text-align: center;
   }
   /* Gallery container */
   .gallery {

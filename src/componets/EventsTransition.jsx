@@ -1,15 +1,25 @@
 import React, { useState } from "react";
 import "./EventsTransition.css";
 
+import projectionsImage from "../assets/img/projections.jpeg";
+import edmImage from "../assets/img/edm.jpeg";
+import nccImage from "../assets/img/NCC.jpeg";
+import sportsImage from "../assets/img/sports.jpeg";
+import festImage from "../assets/img/fest.jpeg";
+import cultureImage from "../assets/img/culture.jpeg";
+import holiImage from "../assets/img/holi.jpeg";
+import artImage from "../assets/img/Art.jpeg";
+
+
 const panelsData = [
-  { id: "panel-1", title: "Tech", image: "../../public/img/projections.jpeg" },
-  { id: "panel-2", title: "EDM", image: "../../public/img/edm.jpeg" },
-  { id: "panel-3", title: "NCC", image: "../../public/img/NCC.jpeg" },
-  { id: "panel-4", title: "Sports", image: "../../public/img/sports.jpeg" },
-  { id: "panel-5", title: "Fest", image: "../../public/img/fest.jpeg" },
-  { id: "panel-6", title: "Culture", image: "/img/culture.jpeg" },
-  { id: "panel-7", title: "Holi", image: "/img/holi.jpeg" },
-  { id: "panel-8", title: "Art", image: "img/Art.jpeg" },
+  { id: "panel-1", title: "Tech", image: projectionsImage },
+  { id: "panel-2", title: "EDM", image: edmImage },
+  { id: "panel-3", title: "NCC", image: nccImage },
+  { id: "panel-4", title: "Sports", image: sportsImage },
+  { id: "panel-5", title: "Fest", image: festImage },
+  { id: "panel-6", title: "Culture", image: cultureImage },
+  { id: "panel-7", title: "Holi", image: holiImage },
+  { id: "panel-8", title: "Art", image: artImage },
 ];
 
 const Panel = ({ id, title, image, isActive, onClick }) => {

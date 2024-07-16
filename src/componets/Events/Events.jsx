@@ -1,7 +1,7 @@
 import React from "react";
 import "./Events.css";
 import e1 from "../../assets/clubs/e1.png";
-import EventsTransition from "./EventsTransition";
+import EventsTransition from "../EventsTransition";
 
 const Events = () => {
   return (

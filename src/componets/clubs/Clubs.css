@@ -119,7 +119,7 @@
 .clubs2 {
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 240px;
   width: 100vw;
 }
 
@@ -200,6 +200,79 @@
   width: 300px;
   font-size: 15px;
 }
+
+
+/* Add animation to clubs2-l and clubs2-r when .animate class is added */
+.clubs2-l.animate, .clubs2-r.animate {
+  animation: slideIn 1s ease-out forwards;
+}
+
+.clubs2-l {
+  opacity: 0;
+}
+
+.clubs2-r {
+  opacity: 0;
+}
+
+.clubs2-l.animate {
+  animation-name: slideInLeft;
+  opacity: 1;
+}
+
+.clubs2-r.animate {
+  animation-name: slideInRight;
+  opacity: 1;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Styles for magazines message */
+.magazines-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 24px;
+  opacity: 0;
+  animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 @media (max-width: 767px) {
   .clubs {
@@ -298,3 +371,4 @@
     font-size: 12px;
   }
 }
+

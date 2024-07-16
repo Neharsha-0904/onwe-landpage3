@@ -52,35 +52,35 @@ body {
 }
 
 #panel-1 {
-  background-image: url("/img/projections.jpeg");
+  background-image: url("../assets/img/projections.jpeg");
   background-size: cover;
 }
 #panel-2 {
-  background-image: url("/img/edm.jpeg");
+  background-image: url("../assets/img/edm.jpeg");
   background-size: cover;
 }
 #panel-3 {
-  background-image: url("/img/NCC.jpeg");
+  background-image: url("../assets/img/NCC.jpeg");
   background-size: cover;
 }
 #panel-4 {
-  background-image: url("/img/sports.jpeg");
+  background-image: url("../assets/img/sports.jpeg");
   background-size: cover;
 }
 #panel-5 {
-  background-image: url("/img/fest.jpeg");
+  background-image: url("../assets/img/fest.jpeg");
   background-size: cover;
 }
 #panel-6 {
-  background-image: url("/img/culture.jpeg");
+  background-image: url("../assets/img/culture.jpeg");
   background-size: cover;
 }
 #panel-7 {
-  background-image: url("img/holi.jpeg");
+  background-image: url("../assets/img/holi.jpeg");
   background-size: cover;
 }
 #panel-8 {
-  background-image: url("img/Art.jpeg");
+  background-image: url("../assets/img/Art.jpeg");
   background-size: cover;
 }
 @media (max-width: 767px) {

@@ -1,8 +1,9 @@
 import React from "react";
 import "./Hero.css";
-import back from "/img/onwe-main.png";
+// import back from "/img/onwe-main.png";
 import Header from "../Header/Header";
 import Anime from "./Anime";
+import mainBg from "../../assets/img/Group 1272629257.png";
 
 // import Bird from "./Bird";
 
@@ -38,7 +39,7 @@ const Hero = () => {
         </div>
         <div className="right-H">
           {/* <img src={back} alt="" /> */}
-          <img src="/img/Group 1272629257.png" alt="" />
+          <img src={mainBg} alt="" />
           {/* <Anime /> */}
         </div>
       </div>

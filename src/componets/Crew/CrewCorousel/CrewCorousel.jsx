@@ -4,7 +4,7 @@ import c1 from "../../../assets/Crew/c1.jpg";
 import c2 from "../../../assets/Crew/c2.jpg";
 import c3 from "../../../assets/Crew/c3.jpg";
 
-const CrewCarousel = () => {
+const CrewCorousel = () => {
   return (
     <div className="pic-ctn">
       <img src={c1} alt="Crew 1" className="pic" />
@@ -14,4 +14,4 @@ const CrewCarousel = () => {
   );
 };
 
-export default CrewCarousel;
+export default CrewCorousel;

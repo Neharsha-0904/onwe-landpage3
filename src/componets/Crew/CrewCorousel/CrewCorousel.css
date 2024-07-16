@@ -3,11 +3,13 @@
   height: 300px;
   position: relative;
   margin-top: 20vh;
+  /* overflow: hidden;  */
+  /* Ensures that images outside the container are hidden */
 }
 
 .pic-ctn img {
-  width: 100%; /* Adjust the width to fit the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 @keyframes display {
@@ -19,11 +21,11 @@
     transform: translateX(0);
     opacity: 1;
   }
-  20% {
+  30% {
     transform: translateX(0);
     opacity: 1;
   }
-  30% {
+  40% {
     transform: translateX(-200px);
     opacity: 0;
   }
@@ -36,19 +38,20 @@
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  left: 50%; /* Adjusted for center alignment */
-  transform: translateX(-50%); /* Center the image horizontally */
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
-  animation: display 5s infinite;
-  animation-delay: 2s;
+  animation: display 9s infinite; /* Total duration for three images */
 }
-/* .pic-ctn > img:nth-child(1) {
-  animation-delay: 2s;
-} */
+
+.pic-ctn > img:nth-child(1) {
+  animation-delay: 0s; /* No delay for the first image */
+}
+
 .pic-ctn > img:nth-child(2) {
-  animation-delay: 4s;
+  animation-delay: 3s; /* Delay by 3 seconds for the second image */
 }
 
 .pic-ctn > img:nth-child(3) {
-  animation-delay: 6s; /* Adjust delay for staggered animation */
+  animation-delay: 6s; /* Delay by 6 seconds for the third image */
 }
